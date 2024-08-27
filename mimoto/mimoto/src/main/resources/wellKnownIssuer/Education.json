@@ -1,6 +1,6 @@
 {
   "credential_issuer": "Sunbird",
-  "credential_endpoint": "https://idt.one1sewa.com/v1/esignet/vci/credential",
+  "credential_endpoint": "https://idta.one1sewa.com/v1/esignet/vci/credential",
   "credentials_supported": [
     {
       "format": "ldp_vc",

@@ -1,11 +1,11 @@
 
 # MOSIP
 mosipbox.public.url=https://api-internal.dev2.mosip.net
-mosip.api.public.host=https://idt.one1sewa.com
+mosip.api.public.host=https://idta.one1sewa.com
 public.internet.url=https://api.dev2.mosip.net
 public.url=https://api-internal.dev2.mosip.net
 keycloak.internal.url=https://iam.dev2.mosip.net/
-mosip.esignet.host=https://idt.one1sewa.com
+mosip.esignet.host=https://idta.one1sewa.com
 
 # Resident service
 mosip.resident.base.url=${mosipbox.public.url}/resident/v1

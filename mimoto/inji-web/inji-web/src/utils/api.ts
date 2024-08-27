@@ -9,7 +9,7 @@ export enum MethodType {
 export class api {
 
     //static mimotoHost = "http://localhost:3010";
-     static mimotoHost = "https://idt.one1sewa.com" + "/residentmobileapp";
+     static mimotoHost = "https://idta.one1sewa.com" + "/residentmobileapp";
 
     static authorizationRedirectionUrl = window.location.origin + "/redirect";
 

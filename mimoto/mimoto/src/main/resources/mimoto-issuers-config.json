@@ -110,13 +110,13 @@
       "additional_headers": {
         "Accept": "application/json"
       },
-      ".well-known": "https://idt.one1sewa.com/v1/esignet/vci/.well-known/openid-credential-issuer?version=v11",
+      ".well-known": "https://idta.one1sewa.com/v1/esignet/vci/.well-known/openid-credential-issuer?version=v11",
       "redirect_uri": "io.mosip.residentapp.inji://oauth",
-      "authorization_endpoint": "https://idt.one1sewa.com/ui/authorize",
-      "authorization_audience": "https://idt.one1sewa.com/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://idt.one1sewa.com/residentmobileapp/get-token/Sunbird",
-      "proxy_token_endpoint": "https://idt.one1sewa.com/v1/esignet/oauth/v2/token",
-      "credential_endpoint": "https://idt.one1sewa.com/v1/esignet/vci/credential",
+      "authorization_endpoint": "https://idta.one1sewa.com/ui/authorize",
+      "authorization_audience": "https://idta.one1sewa.com/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://idta.one1sewa.com/residentmobileapp/get-token/Sunbird",
+      "proxy_token_endpoint": "https://idta.one1sewa.com/v1/esignet/oauth/v2/token",
+      "credential_endpoint": "https://idta.one1sewa.com/v1/esignet/vci/credential",
       "credential_type": [
         "VerifiableCredential",
         "EducationCredential"
