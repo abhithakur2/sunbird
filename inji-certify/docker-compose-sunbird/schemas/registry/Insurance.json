@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "properties": {
+    "Education": {
+      "$ref": "#/definitions/Education"
+    }
+  },
+  "required": [
+    "Education"
+  ],
+  "title": "Education",
+  "definitions": {
+    "Education": {
+      "$id": "#/properties/Education",
+      "type": "object",
+      "title": "Education",
+      "required": [
+        "enrollmentNumber",
+        "studentName",       
+        "dob"
+      ],
+      "properties": {
+        "enrollmentNumber": {
+          "type": "string"
+        },
+        "studentName": {
+          "type": "string"
+        },
+        "instituteName": {
+          "type": "string"
+        },
+        "marks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "monthYearExam": {
+          "type": "string",
+          "title": "Month and Year of Exam"
+        },
+        "subjectNumber": {
+          "type": "string",
+          "title": "Number of Subject Offered"
+        },
+        "result": {
+          "type": "string",
+          "title": "Result"
+        },
+        "percentage": {
+          "type": "string",
+          "title": "Percentage"
+        },
+        "grade": {
+          "type": "string",
+          "title": "Grade"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string",
+          "enum": [
+            "Male",
+            "Female",
+            "Other"
+          ]
+        }
+      }
+    }
+  },
+  "_osConfig": {
+    "osComment": [],
+    "privateFields": [],
+    "signedFields": [],
+    "indexFields": [],
+    "uniqueIndexFields": [],
+    "roles": [
+      "anonymous"
+    ],
+    "inviteRoles": [
+      "anonymous"
+    ]
+  }
+}

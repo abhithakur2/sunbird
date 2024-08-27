@@ -1,0 +1,312 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mio.mosip:mimoto[0;1m >---------------------------[m
+[[1;34mINFO[m] [1mBuilding mimoto 0.12.0[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:2.0.2.RELEASE:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mmimoto[0;1m >>>[m
+[[1;33mWARNING[m] The artifact com.itextpdf:itext7-core:pom:8.0.3 has been relocated to com.itextpdf:itext-core:pom:8.0.3
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.0.1:enforce[m [1m(only-junit-dep-is-used)[m @ [36mmimoto[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mgit-commit-id-plugin:3.0.1:revision[m [1m(get-the-git-infos)[m @ [36mmimoto[0;1m ---[m
+[[1;34mINFO[m] dotGitDirectory /home/mosipDev/mimoto/mimoto/.git
+[[1;34mINFO[m] Collected git.commit.id.full with value a03e9b18f181fd4a317e163e1ac1fb9ca675872c
+[[1;34mINFO[m] Collected git.commit.id.abbrev with value a03e9b1
+[[1;34mINFO[m] Collected git.build.time with value 2024-05-24T05:06:36+0000
+[[1;34mINFO[m] Collected git.build.version with value 0.12.0
+[[1;34mINFO[m] including property git.build.version in results
+[[1;34mINFO[m] including property git.commit.id.full in results
+[[1;34mINFO[m] including property git.commit.id.abbrev in results
+[[1;34mINFO[m] including property git.build.time in results
+[[1;34mINFO[m] Reading existing properties file [/home/mosipDev/mimoto/mimoto/target/classes/git.properties] (for module mimoto)...
+[[1;34mINFO[m] Properties file [/home/mosipDev/mimoto/mimoto/target/classes/git.properties] is up-to-date (for module mimoto)...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mgit-commit-id-maven-plugin:5.0.0:revision[m [1m(get-the-git-infos)[m @ [36mmimoto[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:prepare-agent[m [1m(default)[m @ [36mmimoto[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/mosipDev/mimoto/mimoto/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mgit-commit-id-plugin:3.0.1:revision[m [1m(default)[m @ [36mmimoto[0;1m ---[m
+[[1;34mINFO[m] dotGitDirectory /home/mosipDev/mimoto/mimoto/.git
+[[1;34mINFO[m] Collected git.commit.id.full with value a03e9b18f181fd4a317e163e1ac1fb9ca675872c
+[[1;34mINFO[m] Collected git.commit.id.abbrev with value a03e9b1
+[[1;34mINFO[m] Collected git.build.time with value 2024-05-24T05:06:37+0000
+[[1;34mINFO[m] Collected git.build.version with value 0.12.0
+[[1;34mINFO[m] including property git.build.version in results
+[[1;34mINFO[m] including property git.commit.id.full in results
+[[1;34mINFO[m] including property git.commit.id.abbrev in results
+[[1;34mINFO[m] including property git.build.time in results
+[[1;34mINFO[m] Reading existing properties file [/home/mosipDev/mimoto/mimoto/target/classes/git.properties] (for module mimoto)...
+[[1;34mINFO[m] Properties file [/home/mosipDev/mimoto/mimoto/target/classes/git.properties] is up-to-date (for module mimoto)...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.0.2.RELEASE:build-info[m [1m(default)[m @ [36mmimoto[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.1:resources[m [1m(default-resources)[m @ [36mmimoto[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 6 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mmimoto[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.1:testResources[m [1m(default-testResources)[m @ [36mmimoto[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/mosipDev/mimoto/mimoto/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mmimoto[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:2.0.2.RELEASE:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mmimoto[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.0.2.RELEASE:run[m [1m(default-cli)[m @ [36mmimoto[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/root/.m2/repository/io/mosip/kernel/kernel-auth-adapter/1.2.0.1-B1/kernel-auth-adapter-1.2.0.1-B1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.6/logback-classic-1.2.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+05:06:40.010 [main] INFO io.mosip.mimoto.MimotoServiceApplication - Mimoto Service version: 0.12.0 - revision: a03e9b1 @ branch: local-build | build @ 2024-05-24T05:03:43+0000
+The Class-Path manifest attribute in /root/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0-b170127.1453/jaxb-runtime-2.3.0-b170127.1453.jar referenced one or more files that do not exist: file:/root/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0-b170127.1453/jaxb-core-2.3.0-b170127.1453.jar,file:/root/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0-b170127.1453/jaxb-api-2.3.0-b161121.1438.jar,file:/root/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0-b170127.1453/txw2-2.3.0-b170127.1453.jar,file:/root/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0-b170127.1453/istack-commons-runtime-3.0.4.jar,file:/root/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0-b170127.1453/stax-ex-1.7.8.jar,file:/root/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0-b170127.1453/FastInfoset-1.2.13.jar
+The Class-Path manifest attribute in /root/.m2/repository/org/glassfish/jaxb/jaxb-core/2.3.0-b170127.1453/jaxb-core-2.3.0-b170127.1453.jar referenced one or more files that do not exist: file:/root/.m2/repository/org/glassfish/jaxb/jaxb-core/2.3.0-b170127.1453/jaxb-api-2.3.0-b161121.1438.jar,file:/root/.m2/repository/org/glassfish/jaxb/jaxb-core/2.3.0-b170127.1453/txw2-2.3.0-b170127.1453.jar,file:/root/.m2/repository/org/glassfish/jaxb/jaxb-core/2.3.0-b170127.1453/istack-commons-runtime-3.0.4.jar
+05:06:40.251 [main] DEBUG org.springframework.boot.devtools.settings.DevToolsSettings - Included patterns for restart : []
+05:06:40.252 [main] DEBUG org.springframework.boot.devtools.settings.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/target/classes/, /spring-boot-starter/target/classes/, /spring-boot-devtools/target/classes/, /spring-boot-actuator/target/classes/, /spring-boot-autoconfigure/target/classes/]
+05:06:40.252 [main] DEBUG org.springframework.boot.devtools.restart.ChangeableUrls - Matching URLs for reloading : [file:/home/mosipDev/mimoto/mimoto/target/classes/]
+05:06:40.269 [restartedMain] INFO io.mosip.mimoto.MimotoServiceApplication - Mimoto Service version: 0.12.0 - revision: a03e9b1 @ branch: local-build | build @ 2024-05-24T05:03:43+0000
+2024-05-24 05:06:41.124  INFO [mimoto,,,] 1688969 --- [  restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@23cdd8b1: startup date [Fri May 24 05:06:41 UTC 2024]; root of context hierarchy
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils$1 (file:/root/.m2/repository/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.springframework.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2024-05-24 05:06:41.464  INFO [mimoto,,,] 1688969 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$76a73911] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.2.RELEASE)
+
+2024-05-24 05:06:41.804  WARN [mimoto,,,] 1688969 --- [  restartedMain] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: Invalid URL: localhost
+2024-05-24 05:06:41.807  INFO [mimoto,,,] 1688969 --- [  restartedMain] i.mosip.mimoto.MimotoServiceApplication  : The following profiles are active: local
+2024-05-24 05:06:48.089  INFO [mimoto,,,] 1688969 --- [  restartedMain] i.m.k.a.d.c.RestTemplatePostProcessor    : Post processing REST_TEMPLATE bean : plainRestTemplate 
+2024-05-24 05:06:48.104  INFO [mimoto,,,] 1688969 --- [  restartedMain] i.m.k.a.d.c.RestTemplatePostProcessor    : Post processing REST_TEMPLATE bean : selfTokenRestTemplate 
+2024-05-24 05:06:48.350  INFO [mimoto,,,] 1688969 --- [  restartedMain] i.m.k.a.d.c.RestTemplatePostProcessor    : Post processing REST_TEMPLATE bean : websubRestTemplate 
+2024-05-24 05:06:49.670  INFO [mimoto,,,] 1688969 --- [  restartedMain] i.m.k.a.d.c.RestTemplatePostProcessor    : Post processing REST_TEMPLATE bean : restTemplate 
+2024-05-24 05:06:49.889  INFO [mimoto,,,] 1688969 --- [TaskScheduler-1] i.m.k.a.d.helper.TokenHelper             : Requesting for new Token for the provided OIDC Service(WebClient): https://iam.dev2.mosip.net//auth/realms/
+2024-05-24 05:06:51.173  INFO [mimoto,,,] 1688969 --- [  restartedMain] io.mosip.mimoto.config.SwaggerConfig     : swagger open api bean is ready
+2024-05-24 05:06:51.619  INFO [mimoto,,,] 1688969 --- [  restartedMain] io.mosip.mimoto.config.SwaggerConfig     : swagger open api bean is ready
+2024-05-24 05:06:51.843  INFO [mimoto,,,] 1688969 --- [  restartedMain] io.mosip.mimoto.config.SwaggerConfig     : swagger open api bean is ready
+2024-05-24 05:06:51.870  INFO [mimoto,,,] 1688969 --- [  restartedMain] io.mosip.mimoto.config.SwaggerConfig     : swagger open api bean is ready
+2024-05-24 05:06:53.542  INFO [mimoto,,,] 1688969 --- [  restartedMain] i.mosip.mimoto.MimotoServiceApplication  : Started MimotoServiceApplication in 13.253 seconds (JVM running for 14.414)
+2024-05-24 05:06:53.547  INFO [mimoto,,,] 1688969 --- [  restartedMain] i.m.m.config.IssuersValidationConfig     : Validation for mimoto-issuers-config.json STARTED
+2024-05-24 05:06:53.778  INFO [mimoto,,,] 1688969 --- [  restartedMain] i.m.m.config.IssuersValidationConfig     : Validation for mimoto-issuers-config.json COMPLETED
+2024-05-24 05:06:58.404  INFO [mimoto,3f8699342b935b80,3f8699342b935b80,false] 1688969 --- [lTaskScheduler1] i.m.m.util.WebSubSubscriptionHelper      : Initializing subscriptions...
+2024-05-24 05:06:58.404  INFO [mimoto,3f8699342b935b80,3f8699342b935b80,false] 1688969 --- [lTaskScheduler1] i.m.m.util.WebSubSubscriptionHelper      : Subscription request : SubscriptionChangeRequest(hubURL=https://api-internal.dev2.mosip.net/hub/, topic=mpartner-default-mobile/CREDENTIAL_ISSUED, callbackURL=https://api-internal.dev2.mosip.net/credentialshare/callback/notify, leaseSeconds=0, secret=Kslk30SNF2AChs2)
+2024-05-24 05:06:58.433  INFO [mimoto,3f8699342b935b80,e33fb9ef69a9b619,false] 1688969 --- [lTaskScheduler1] i.m.k.a.d.helper.TokenHelper             : Requesting for new Token for the provided OIDC Service: https://iam.dev2.mosip.net//auth/realms/
+2024-05-24 05:07:20.596 ERROR [mimoto,,,] 1688969 --- [TaskScheduler-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+reactor.core.Exceptions$ReactiveException: io.netty.channel.ConnectTimeoutException: connection timed out: iam.dev2.mosip.net/10.3.148.169:443
+	at reactor.core.Exceptions.propagate(Exceptions.java:326) ~[reactor-core-3.1.7.RELEASE.jar:3.1.7.RELEASE]
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:91) ~[reactor-core-3.1.7.RELEASE.jar:3.1.7.RELEASE]
+	at reactor.core.publisher.Mono.block(Mono.java:1175) ~[reactor-core-3.1.7.RELEASE.jar:3.1.7.RELEASE]
+	at io.mosip.kernel.auth.defaultadapter.helper.TokenHelper.getClientToken(TokenHelper.java:130) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at io.mosip.kernel.auth.defaultadapter.config.SelfTokenRenewalTaskExecutor$SelfTokenHandlerTask.run(SelfTokenRenewalTaskExecutor.java:76) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:93) ~[reactor-core-3.1.7.RELEASE.jar:3.1.7.RELEASE]
+		... 10 common frames omitted
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: iam.dev2.mosip.net/10.3.148.169:443
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe$2.run(AbstractEpollChannel.java:572) ~[netty-transport-native-epoll-4.1.24.Final-linux-x86_64.jar:4.1.24.Final]
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38) ~[netty-common-4.1.24.Final.jar:4.1.24.Final]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:125) ~[netty-common-4.1.24.Final.jar:4.1.24.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[netty-common-4.1.24.Final.jar:4.1.24.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404) ~[netty-common-4.1.24.Final.jar:4.1.24.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:309) ~[netty-transport-native-epoll-4.1.24.Final-linux-x86_64.jar:4.1.24.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) ~[netty-common-4.1.24.Final.jar:4.1.24.Final]
+	... 1 common frames omitted
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.MonoLift] :
+	reactor.core.publisher.Mono.error(Mono.java:252)
+	org.springframework.cloud.sleuth.instrument.web.client.TraceExchangeFilterFunction.lambda$filter$2(TraceWebClientBeanPostProcessor.java:143)
+	reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:118)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.onNext(ScopePassingSpanSubscriber.java:82)
+	org.springframework.cloud.sleuth.instrument.reactor.LazySpanSubscriber.onNext(LazySpanSubscriber.java:52)
+	reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1080)
+	reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:241)
+	reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:323)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.onNext(ScopePassingSpanSubscriber.java:82)
+	org.springframework.cloud.sleuth.instrument.reactor.LazySpanSubscriber.onNext(LazySpanSubscriber.java:52)
+	reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.onNext(ScopePassingSpanSubscriber.java:82)
+	reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:1637)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.request(ScopePassingSpanSubscriber.java:70)
+	reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:1451)
+	reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onSubscribe(FluxOnErrorResume.java:68)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.onSubscribe(ScopePassingSpanSubscriber.java:64)
+	reactor.core.publisher.MonoJust.subscribe(MonoJust.java:54)
+	reactor.core.publisher.MonoLift.subscribe(MonoLift.java:46)
+	reactor.core.publisher.Mono.subscribe(Mono.java:3080)
+	reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:97)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.onError(ScopePassingSpanSubscriber.java:87)
+	org.springframework.cloud.sleuth.instrument.reactor.LazySpanSubscriber.onError(LazySpanSubscriber.java:56)
+	reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:120)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.onError(ScopePassingSpanSubscriber.java:87)
+	org.springframework.cloud.sleuth.instrument.reactor.LazySpanSubscriber.onError(LazySpanSubscriber.java:56)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.onError(ScopePassingSpanSubscriber.java:87)
+	org.springframework.cloud.sleuth.instrument.reactor.LazySpanSubscriber.onError(LazySpanSubscriber.java:56)
+	reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:120)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.onError(ScopePassingSpanSubscriber.java:87)
+	org.springframework.cloud.sleuth.instrument.reactor.LazySpanSubscriber.onError(LazySpanSubscriber.java:56)
+	reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:207)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.onError(ScopePassingSpanSubscriber.java:87)
+	org.springframework.cloud.sleuth.instrument.reactor.LazySpanSubscriber.onError(LazySpanSubscriber.java:56)
+	reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:207)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.onError(ScopePassingSpanSubscriber.java:87)
+	org.springframework.cloud.sleuth.instrument.reactor.LazySpanSubscriber.onError(LazySpanSubscriber.java:56)
+	reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:207)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.onError(ScopePassingSpanSubscriber.java:87)
+	org.springframework.cloud.sleuth.instrument.reactor.LazySpanSubscriber.onError(LazySpanSubscriber.java:56)
+	reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:120)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.onError(ScopePassingSpanSubscriber.java:87)
+	org.springframework.cloud.sleuth.instrument.reactor.LazySpanSubscriber.onError(LazySpanSubscriber.java:56)
+	reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:120)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.onError(ScopePassingSpanSubscriber.java:87)
+	org.springframework.cloud.sleuth.instrument.reactor.LazySpanSubscriber.onError(LazySpanSubscriber.java:56)
+	reactor.core.publisher.FluxRetryPredicate$RetryPredicateSubscriber.onError(FluxRetryPredicate.java:100)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.onError(ScopePassingSpanSubscriber.java:87)
+	org.springframework.cloud.sleuth.instrument.reactor.LazySpanSubscriber.onError(LazySpanSubscriber.java:56)
+	org.springframework.cloud.sleuth.instrument.reactor.ScopePassingSpanSubscriber.onError(ScopePassingSpanSubscriber.java:87)
+	org.springframework.cloud.sleuth.instrument.reactor.LazySpanSubscriber.onError(LazySpanSubscriber.java:56)
+	reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:160)
+	reactor.ipc.netty.channel.ContextHandler.fireContextError(ContextHandler.java:272)
+	reactor.ipc.netty.channel.PooledClientContextHandler.operationComplete(PooledClientContextHandler.java:152)
+	io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:511)
+	io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:504)
+	io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:483)
+	io.netty.util.concurrent.DefaultPromise.access$000(DefaultPromise.java:33)
+	io.netty.util.concurrent.DefaultPromise$1.run(DefaultPromise.java:435)
+	io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:309)
+	io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+Error has been observed by the following operator(s):
+	|_	Mono.error(TraceWebClientBeanPostProcessor.java:143)
+	|_	Mono.doAfterSuccessOrError(TraceWebClientBeanPostProcessor.java:147)
+
+
+{"@timestamp":"2024-05-24T05:08:38.707Z","level":"ACCESS","level_value":70000,"traceId":"-","appId":"-","statusCode":200,"req.requestURI":"/residentmobileapp/issuers/Sunbird/credentialTypes","bytesSent":2357,"timeTaken":0.360,"appName":"mimoto"}
+{"@timestamp":"2024-05-24T05:08:40.556Z","level":"ACCESS","level_value":70000,"traceId":"-","appId":"-","statusCode":200,"req.requestURI":"/residentmobileapp/issuers","bytesSent":587,"timeTaken":0.022,"appName":"mimoto"}
+{"@timestamp":"2024-05-24T05:08:47.336Z","level":"ACCESS","level_value":70000,"traceId":"-","appId":"-","statusCode":200,"req.requestURI":"/residentmobileapp/issuers/Sunbird","bytesSent":1224,"timeTaken":0.019,"appName":"mimoto"}
+{"@timestamp":"2024-05-24T05:08:47.508Z","level":"ACCESS","level_value":70000,"traceId":"-","appId":"-","statusCode":200,"req.requestURI":"/residentmobileapp/issuers/Sunbird/credentialTypes","bytesSent":2357,"timeTaken":0.021,"appName":"mimoto"}
+{"@timestamp":"2024-05-24T05:08:54.059Z","level":"ACCESS","level_value":70000,"traceId":"-","appId":"-","statusCode":200,"req.requestURI":"/residentmobileapp/issuers","bytesSent":587,"timeTaken":0.010,"appName":"mimoto"}
+{"@timestamp":"2024-05-24T05:08:57.788Z","level":"ACCESS","level_value":70000,"traceId":"-","appId":"-","statusCode":200,"req.requestURI":"/residentmobileapp/issuers/Sunbird","bytesSent":1224,"timeTaken":0.011,"appName":"mimoto"}
+{"@timestamp":"2024-05-24T05:08:57.964Z","level":"ACCESS","level_value":70000,"traceId":"-","appId":"-","statusCode":200,"req.requestURI":"/residentmobileapp/issuers/Sunbird/credentialTypes","bytesSent":2357,"timeTaken":0.023,"appName":"mimoto"}
+2024-05-24 05:09:09.578 ERROR [mimoto,,,] 1688969 --- [lTaskScheduler1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "https://iam.dev2.mosip.net/auth/realms/mosip/protocol/openid-connect/token": Connect to iam.dev2.mosip.net:443 [iam.dev2.mosip.net/10.3.148.169] failed: Connection timed out (Connection timed out); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to iam.dev2.mosip.net:443 [iam.dev2.mosip.net/10.3.148.169] failed: Connection timed out (Connection timed out)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:732) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:680) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:466) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at io.mosip.kernel.auth.defaultadapter.helper.TokenHelper.getClientToken(TokenHelper.java:80) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at io.mosip.kernel.auth.defaultadapter.config.SelfTokenRestInterceptor.intercept(SelfTokenRestInterceptor.java:67) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:92) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at brave.spring.web.TracingClientHttpRequestInterceptor.intercept(TracingClientHttpRequestInterceptor.java:53) ~[brave-instrumentation-spring-web-5.6.1.jar:na]
+	at org.springframework.cloud.sleuth.instrument.web.client.LazyTracingClientHttpRequestInterceptor.intercept(TraceWebClientAutoConfiguration.java:293) ~[spring-cloud-sleuth-core-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:92) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:76) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:723) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:680) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:600) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at io.mosip.kernel.websub.api.client.SubscriberClientImpl.subscribe(SubscriberClientImpl.java:92) ~[kernel-websubclient-api-1.2.0.1-B1.jar:na]
+	at io.mosip.kernel.websub.api.client.SubscriberClientImpl.subscribe(SubscriberClientImpl.java:50) ~[kernel-websubclient-api-1.2.0.1-B1.jar:na]
+	at io.mosip.mimoto.util.WebSubSubscriptionHelper.subscribeEvent(WebSubSubscriptionHelper.java:76) ~[classes/:na]
+	at io.mosip.mimoto.util.WebSubSubscriptionHelper.initSubscriptions(WebSubSubscriptionHelper.java:51) ~[classes/:na]
+	at io.mosip.mimoto.util.WebSubSubscriptionHelper$$FastClassBySpringCGLIB$$3169152c.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.cloud.sleuth.instrument.scheduling.TraceSchedulingAspect.traceBackgroundThread(TraceSchedulingAspect.java:72) ~[spring-cloud-sleuth-core-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at io.mosip.mimoto.util.WebSubSubscriptionHelper$$EnhancerBySpringCGLIB$$baef1f5a.initSubscriptions(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) ~[spring-context-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to iam.dev2.mosip.net:443 [iam.dev2.mosip.net/10.3.148.169] failed: Connection timed out (Connection timed out)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:108) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at io.mosip.kernel.auth.defaultadapter.config.RestTemplateInterceptor.intercept(RestTemplateInterceptor.java:54) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:92) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at io.mosip.kernel.auth.defaultadapter.config.RestTemplateInterceptor.intercept(RestTemplateInterceptor.java:54) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:92) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at brave.spring.web.TracingClientHttpRequestInterceptor.intercept(TracingClientHttpRequestInterceptor.java:53) ~[brave-instrumentation-spring-web-5.6.1.jar:na]
+	at org.springframework.cloud.sleuth.instrument.web.client.LazyTracingClientHttpRequestInterceptor.intercept(TraceWebClientAutoConfiguration.java:293) ~[spring-cloud-sleuth-core-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:92) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:76) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:723) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	... 48 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out (Connection timed out)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:609) ~[na:na]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:339) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[kernel-auth-adapter-1.2.0.1-B1.jar:na]
+	... 72 common frames omitted
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  05:16 min
+[[1;34mINFO[m] Finished at: 2024-05-24T05:11:48Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

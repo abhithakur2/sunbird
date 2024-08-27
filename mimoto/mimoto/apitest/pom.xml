@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>io.mosip.mimoto</groupId>
+	<artifactId>apitest-mimoto</artifactId>
+	<packaging>jar</packaging>
+	<name>apitest-mimoto</name>
+	<description>Parent project of MOSIP mimoto apitests</description>
+	<url>https://github.com/mosip/mimoto</url>
+	<version>1.2.1-java21-SNAPSHOT</version>
+
+	<licenses>
+		<license>
+			<name>MPL 2.0</name>
+			<url>https://www.mozilla.org/en-US/MPL/2.0/</url>
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>scm:git:git://github.com/mosip/mimoto.git</connection>
+		<developerConnection>scm:git:ssh://github.com:mosip/mimoto.git</developerConnection>
+		<url>https://github.com/mosip/mimoto</url>
+		<tag>HEAD</tag>
+	</scm>
+
+
+	<dependencies>
+
+		<dependency>
+			<groupId>io.mosip.testrig.apirig.automationtests.commons</groupId>
+			<artifactId>automationtests-commons</artifactId>
+			<version>1.2.1-java21-SNAPSHOT</version>
+		</dependency>
+		
+	</dependencies>
+	
+</project>

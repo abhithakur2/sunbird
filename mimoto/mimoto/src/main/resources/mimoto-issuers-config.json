@@ -1,0 +1,128 @@
+{
+  "issuers": [
+   {
+      "credential_issuer": "ESignet",
+      "display": [
+        {
+          "name": "e-Signet",
+          "logo": {
+            "url": "https://mosip.io/images/footer/foot-logo-b.png",
+            "alt_text": "esignet-logo"
+          },
+          "title": "Download MOSIP Credentials",
+          "description": "Download credentials by providing UIN or VID",
+          "language": "en"
+        },
+        {
+          "name": "e-Signet",
+          "logo": {
+            "url": "https://mosip.io/images/footer/foot-logo-b.png",
+            "alt_text": "شعار موسيب"
+          },
+          "title": "قم بتنزيل بيانات اعتماد MOSIP",
+          "description": "توفير UIN أو VIDقم بتنزيل بيانات الاعتماد عن طريق",
+          "language": "ar"
+        },
+        {
+          "name": "e-Signet",
+          "logo": {
+            "url": "https://mosip.io/images/footer/foot-logo-b.png",
+            "alt_text": "मोसिप लोगो"
+          },
+          "title": "MOSIP क्रेडेंशियल डाउनलोड करेंं",
+          "description": "यूआईएन या वीआईडी प्रदान करके क्रेडेंशियल डाउनलोड करें",
+          "language": "hi"
+        },
+        {
+          "name": "e-Signet",
+          "logo": {
+            "url": "https://mosip.io/images/footer/foot-logo-b.png",
+            "alt_text": "mosip ಲೋಗೋ"
+          },
+          "title": "MOSIP ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
+          "description": "UIN ಅಥವಾ VID ಒದಗಿಸುವ ಮೂಲಕ ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
+          "language": "kn"
+        },
+        {
+          "name": "e-Signet",
+          "logo": {
+            "url": "https://mosip.io/images/footer/foot-logo-b.png",
+            "alt_text": "mosip லோகோ"
+          },
+          "title": "MOSIP சான்றுகளைப் பதிவிறக்கவும்",
+          "description": "UIN அல்லது VIDஐ வழங்குவதன் மூலம் நற்சான்றிதழ்களைப் பதிவிறக்கவும்",
+          "language": "ta"
+        },
+        {
+          "name": "e-Signet",
+          "logo": {
+            "url": "https://mosip.io/images/footer/foot-logo-b.png",
+            "alt_text": "logo ng mosip"
+          },
+          "title": "I-download ang Mga Kredensyal ng MOSIP",
+          "description": "Mag-download ng mga kredensyal sa pamamagitan ng pagbibigay ng UIN o VID",
+          "language": "fil"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "uPukH-ALzkt0IHew59jgvAVHaEAGUVCi94lBDslTXbI",
+      "client_alias": "mpartner-default-demooidc-kpmg",
+      "scopes_supported": [
+        "openid profile"
+      ],
+      "additional_headers": {
+        "Accept": "application/json"
+      },
+      ".well-known": "https://health.one1sewa.com/v1/esignet/vci/.well-known/openid-credential-issuer?version=v11",
+      "redirect_uri": "io.mosip.residentapp.inji://oauth",
+      "authorization_endpoint": "https://health.one1sewa.com/ui/authorize",
+      "authorization_audience": "https://health.one1sewa.com/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://health.one1sewa.com/residentmobileapp/get-token/ESignet",
+      "proxy_token_endpoint": "https://health.one1sewa.com/v1/esignet/oauth/v2/token",
+      "credential_endpoint": "https://health.one1sewa.com/v1/esignet/vci/credential",
+      "credential_type": [
+        "VerifiableCredential",
+        "MOSIPVerifiableCredential"
+      ],
+      "credential_audience": "https://health.one1sewa.com/v1/esignet",
+      "enabled": "true"
+    },
+    {
+      "credential_issuer": "Sunbird",
+      "display": [
+        {
+          "name": "Issuer Provider Name",
+          "logo": {
+            "url": "https://img.freepik.com/premium-vector/campus-collage-university-education-logo-design-template_7492-66.jpg?w=1800",
+            "alt_text": "an issuer logo"
+          },
+          "language": "en",
+          "title": "Issuer Provider Name",
+          "description": "Download Credentials using provided details"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "DPG",
+      "client_alias": "DPG",
+      "scopes_supported": [
+        "sunbird_rc_education_vc_ldp"
+      ],
+      "additional_headers": {
+        "Accept": "application/json"
+      },
+      ".well-known": "https://idt.one1sewa.com/v1/esignet/vci/.well-known/openid-credential-issuer?version=v11",
+      "redirect_uri": "io.mosip.residentapp.inji://oauth",
+      "authorization_endpoint": "https://idt.one1sewa.com/ui/authorize",
+      "authorization_audience": "https://idt.one1sewa.com/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://idt.one1sewa.com/residentmobileapp/get-token/Sunbird",
+      "proxy_token_endpoint": "https://idt.one1sewa.com/v1/esignet/oauth/v2/token",
+      "credential_endpoint": "https://idt.one1sewa.com/v1/esignet/vci/credential",
+      "credential_type": [
+        "VerifiableCredential",
+        "EducationCredential"
+      ],
+      "credential_audience": "Sunbird",
+      "enabled": "true"
+    }
+  ]
+}
