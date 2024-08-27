@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  oidc:
+    build: 
+      context: ./oidc-ui
+      dockerfile: Dockerfile
+    image: oidc:01
+    restart: always
+    ports:
+      - "4005:3004"
+  injiweb:
+    build: 
+      context: ./mimoto/test/inji-web/inji-web/
+      dockerfile: Dockerfile
+    image: injiweb:01
+    restart: always
+    ports: 
+      - "3001:80"
