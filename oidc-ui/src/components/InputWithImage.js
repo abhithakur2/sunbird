@@ -176,7 +176,7 @@ export default function InputWithImage({
           ref={inputVal}
           disabled={disabled}
           onChange={handleChange}
-          onBlur={onBlurChange}
+          // onBlur={onBlurChange}
           onKeyDown={handleKeyDown}
           value={value}
           type={type}

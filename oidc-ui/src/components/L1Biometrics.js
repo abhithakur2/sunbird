@@ -265,7 +265,7 @@ export default function L1Biometrics({
             <InputWithImage
               key={"sbi_" + field.id}
               handleChange={handleInputChange}
-              blurChange={onBlurChange}
+              // blurChange={onBlurChange}
               value={loginState["sbi_" + field.id]}
               labelText={t1(field.labelText)}
               labelFor={field.labelFor}
