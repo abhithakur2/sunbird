@@ -181,7 +181,7 @@ export default function OtpGet({
           <InputWithImage
             key={"Otp_" + field.id}
             handleChange={handleChange}
-            blurChange={onBlurChange}
+            // blurChange={onBlurChange}
             value={loginState["Otp_" + field.id]}
             labelText={t1(field.labelText)}
             labelFor={field.labelFor}

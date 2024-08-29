@@ -173,7 +173,7 @@ export default function Pin({
             <InputWithImage
               key={"Pin_" + field.id}
               handleChange={handleChange}
-              blurChange={onBlurChange}
+              // blurChange={onBlurChange}
               value={loginState["Pin_" + field.id]}
               labelText={t1(field.labelText)}
               labelFor={field.labelFor}

@@ -262,7 +262,7 @@ export default function Password({
             <InputWithImage
               key={"Password_" + field.id}
               handleChange={handleChange}
-              blurChange={onBlurChange}
+              // blurChange={onBlurChange}
               value={loginState["Password_" + field.id]}
               labelText={t1(field.labelText)}
               labelFor={field.labelFor}
