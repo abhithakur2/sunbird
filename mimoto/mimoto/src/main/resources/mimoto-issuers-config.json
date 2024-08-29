@@ -7,16 +7,6 @@
           "name": "e-Signet",
           "logo": {
             "url": "https://mosip.io/images/footer/foot-logo-b.png",
-            "alt_text": "esignet-logo"
-          },
-          "title": "Download MOSIP Credentials",
-          "description": "Download credentials by providing UIN or VID",
-          "language": "en"
-        },
-        {
-          "name": "e-Signet",
-          "logo": {
-            "url": "https://mosip.io/images/footer/foot-logo-b.png",
             "alt_text": "شعار موسيب"
           },
           "title": "قم بتنزيل بيانات اعتماد MOSIP",
