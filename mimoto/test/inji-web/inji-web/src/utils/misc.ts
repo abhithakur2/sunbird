@@ -5,8 +5,8 @@ export const generateCodeChallenge = (verifier = generateRandomString()) => {
     const hashedVerifier = sha256(verifier);
     const base64Verifier = Base64.stringify(hashedVerifier);
     return {
-        codeChallenge:'47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU',
-        codeVerifier:'f02sKcFPuhC58YByxmahEcbxvGqWfuGit_3rpjikSOI'
+        codeChallenge:'9mbKPDklIrORsDCbv0yoBIIJ8nR-Ktve5KqK_a7OaYA',
+        codeVerifier:'Pwq5N8RS-NuHTIQbjXmse1FqwgBPuX5mHhmWBNhwim7rH48E8XG3zuoZYHzVBXc0sgPwOeGfNlDFYkcuvjyZ2V3wmJe7ri2TRvbUC4MUvAao8IyMacAYOVXuBqiPn5Tq'
         /*codeChallenge: base64Verifier
             .replace(/=/g, '')
             .replace(/\+/g, '-')
@@ -22,7 +22,7 @@ export const generateRandomString = (length = 43) => {
         const randomIndex = Math.floor(Math.random() * charset.length);
         randomString += charset[randomIndex];
     }
-    return 'f02sKcFPuhC58YByxmahEcbxvGqWfuGit_3rpjikSOI';
+    return 'Pwq5N8RS-NuHTIQbjXmse1FqwgBPuX5mHhmWBNhwim7rH48E8XG3zuoZYHzVBXc0sgPwOeGfNlDFYkcuvjyZ2V3wmJe7ri2TRvbUC4MUvAao8IyMacAYOVXuBqiPn5Tq';
     //return randomString;
 };
 
