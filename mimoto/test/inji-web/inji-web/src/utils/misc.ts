@@ -22,7 +22,8 @@ export const generateRandomString = (length = 43) => {
         const randomIndex = Math.floor(Math.random() * charset.length);
         randomString += charset[randomIndex];
     }
-    return randomString;
+    return 'f02sKcFPuhC58YByxmahEcbxvGqWfuGit_3rpjikSOI';
+    //return randomString;
 };
 
 export const isObjectEmpty = (object: any) => {
