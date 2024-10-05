@@ -5,11 +5,13 @@ export const generateCodeChallenge = (verifier = generateRandomString()) => {
     const hashedVerifier = sha256(verifier);
     const base64Verifier = Base64.stringify(hashedVerifier);
     return {
-        codeChallenge: base64Verifier
+        codeChallenge:'47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU',
+        codeVerifier:'f02sKcFPuhC58YByxmahEcbxvGqWfuGit_3rpjikSOI'
+        /*codeChallenge: base64Verifier
             .replace(/=/g, '')
             .replace(/\+/g, '-')
             .replace(/\//g, '_'),
-        codeVerifier: verifier
+        codeVerifier: verifier*/
     };
 }
 
